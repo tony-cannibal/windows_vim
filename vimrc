@@ -15,6 +15,7 @@ set splitright
 set splitbelow
 set noswapfile
 set hidden
+set termwinsize=10x0
 
 
 " Visual Aspect
@@ -45,6 +46,11 @@ nnoremap <C-j> <C-W>j
 nnoremap <C-k> <C-W>k
 nnoremap <C-h> <C-W>h
 nnoremap <C-l> <C-W>l
+
+tnoremap <C-j> <C-W>j
+tnoremap <C-k> <C-W>k
+tnoremap <C-h> <C-W>h
+tnoremap <C-l> <C-W>l
 
 nnoremap <silent> <S-h> :bp<CR>
 nnoremap <silent> <S-l> :bn<CR>
