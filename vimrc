@@ -35,7 +35,6 @@ call plug#begin()
     Plug 'jiangmiao/auto-pairs'
     Plug 'wfxr/minimap.vim'
     Plug 'Yggdroot/indentLine'
-    Plug 'dusans/vim-hardmode'
 
 call plug#end()
 
@@ -52,7 +51,7 @@ let g:minimap_auto_start = 1
 let g:minimap_auto_start_win_enter = 1
 
 autocmd ColorScheme *
-        \ highlight minimapCursor            ctermbg=59  ctermfg=228 guibg=#5F5F5F guifg=#FFFF87 |
+        \ highlight minimapCursor            ctermbg=59  ctermfg=228 guibg=#000000 guifg=#689d6a |
         \ highlight minimapRange             ctermbg=242 ctermfg=228 guibg=#4F4F4F guifg=#FFFF87
 
 " Indent line config
